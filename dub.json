@@ -1,0 +1,12 @@
+{
+	"name": "dagwerks",
+	"authors": [
+		"Christian Convey"
+	],
+	"description": "A framework for manipulating directed acyclic graphs (DAGs)",
+	"copyright": "Copyright © 2018, Christian Convey",
+	"license": "Apache-2.0",
+	"dependencies": {
+            "dproto": "2.1.4"
+        }
+}

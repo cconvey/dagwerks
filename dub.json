@@ -7,6 +7,7 @@
 	"copyright": "Copyright © 2018, Christian Convey",
 	"license": "Apache-2.0",
 	"dependencies": {
-            "dproto": "2.1.4"
-        }
+            "protobuf": "*"
+	}
 }
+

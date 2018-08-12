@@ -1,0 +1,8 @@
+language: d
+sudo: false
+
+script:
+  - dub build
+  - dub test
+  - dub build :protoc-gen-d
+  - cd conformance && ./run-conformance-test.sh

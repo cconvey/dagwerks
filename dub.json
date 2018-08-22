@@ -6,8 +6,11 @@
 	"description": "A framework for manipulating directed acyclic graphs (DAGs)",
 	"copyright": "Copyright © 2018, Christian Convey",
 	"license": "Apache-2.0",
+        "importPaths": [ "./source/3rdparty" ],
 	"dependencies": {
-            "protobuf": "*"
-	}
+            "protobuf" : {
+                "path":"./source/3rdparty/protobuf-d"
+            }
+        }
 }
 
